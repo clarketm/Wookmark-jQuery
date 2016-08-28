@@ -4,7 +4,10 @@
 [![Build Status](https://travis-ci.org/germanysbestkeptsecret/Wookmark-jQuery.svg)](https://travis-ci.org/germanysbestkeptsecret/Wookmark-jQuery)
 
 # Wookmark-Node
-An unobtrusive wrapper for [Wookmark](http://www.wookmark.com/jquery-plugin), the popular grid layout plugin. 
+An unobtrusive wrapper for [Wookmark](http://www.wookmark.com/jquery-plugin), the popular grid layout plugin.
+```bash
+ $ npm install wookmark-node
+```
 
 ## Wookmark
 
