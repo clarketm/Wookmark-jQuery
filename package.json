@@ -1,21 +1,24 @@
 {
-  "name": "wookmark",
-  "version": "2.1.2",
-  "repository": "https://github.com/germanysbestkeptsecret/Wookmark-jQuery.git",
-  "description": "Javascript plugin for laying out elements of varying heights in a column-based grid. It also contains support for filtering and sorting items. A lot of examples are included showing how to use all the available options.",
+  "name": "wookmark-node",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clarketm/wookmark-node"
+  },
+  "description": "Javascript plugin for laying out elements of varying heights in a column-based grid. It also contains support for filtering and sorting items.",
+  "main": "wookmark.min.js",
   "keywords": [
     "grid",
     "ui"
   ],
   "license": "MIT",
-  "bugs": "https://github.com/germanysbestkeptsecret/Wookmark-jQuery/issues",
-  "homepage": "http://plugin.wookmark.com",
-  "author": "Christoph Ono <chri@sto.ph>",
-  "contributors": [
-    {
-      "name": "Sebastian Helzle",
-      "email": "sebastian@helzle.it"
-    }
+  "bugs": "https://github.com/clarketm/wookmark-node/issues",
+  "homepages": [
+    "https://www.travismclarke.com",
+    "http://plugin.wookmark.com"
+  ],
+  "authors": [
+    "clarketm <travis.m.clarke@gmail.com>"
   ],
   "devDependencies": {
     "bower": "~1.4.1",
@@ -26,10 +29,5 @@
     "grunt-contrib-uglify": "~0.5.1",
     "grunt-docco": "~0.3.3",
     "grunt-gh-pages": "~0.10.0"
-  },
-  "scripts": {
-    "update": "bower cache clean && bower install && grunt",
-    "build": "grunt",
-    "deploy": "grunt deploy"
   }
 }

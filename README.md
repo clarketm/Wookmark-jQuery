@@ -3,9 +3,12 @@
 [![Read the docs](https://readthedocs.org/projects/wookmark/badge/)](http://wookmark.readthedocs.org/en/latest/)
 [![Build Status](https://travis-ci.org/germanysbestkeptsecret/Wookmark-jQuery.svg)](https://travis-ci.org/germanysbestkeptsecret/Wookmark-jQuery)
 
-Wookmark
+Wookmark-Node
 ========
+An unobtrusive wrapper for [Wookmark](http://www.wookmark.com/jquery-plugin), the popular grid layout plugin. 
 
+Wookmark
+==========
 This is a plugin for laying out a dynamic grid of elements.
 
 See the [documentation page](http://www.wookmark.com/jquery-plugin) for examples.
